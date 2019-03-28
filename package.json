@@ -1,0 +1,32 @@
+{
+  "scripts": {
+    "test-docker-chrome": "node_modules/nightwatch/bin/nightwatch --config docker-chrome-conf.js",
+    "pretest": "eslint ./tests"
+  },
+  "name": "kumparan-web-test",
+  "version": "1.0.0",
+  "description": "kumparan web test",
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "labby",
+  "license": "ISC",
+  "homepage": "",
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1"
+  },
+  "dependencies": {
+    "bizzy-nightwatch-base-page": "^0.7.0",
+    "cucumber": "^5.1.0",
+    "nightwatch-cucumber": "^9.1.3"
+  }
+}
